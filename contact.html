@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michaela's Portfolio</title>
+  <link rel="shortcut icon" href="./img/milafavicon.ico">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Syne:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <a href="index.html"><img src="./img/logo.png" class="page-header__item"
+        alt="Personal logo of Michaela Kreissl, a 3D shape of a diamond">
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem"
+              class="navigation-list__item navigation-list__item--active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+  </header>
+
+  <div class="profile">
+    <h1>Contact</h1>
+    <a href="mailto:mischakom@gmail.com">Email: placeholder@gmail.com</a><br>
+    <a href="tel:+49015110792857">Tel: +4900000000000</a><br>
+    <a href="mailto:placeholder@gmail.com">Get in touch</a>
+
+    <h2>Contact me</h2>
+    <form action="" method="post" id="contact-form">
+      <label for="email" class="standard-label">E-mail: </label><br>
+      <input type="email" placeholder="Email address" id="email" required><br>
+      <label for="tel" class="standard-label">Telephone Number: </label><br>
+      <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="Number" id="tel" /><br>
+      <label for="message" class="standard-label">Message: </label><br>
+      <textarea maxlength="240" required placeholder="Your message here" id="message"></textarea><br>
+      <input type="submit" value="send message" class="button">
+    </form>
+  </div>
+
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <a href="https://github.com/Milakrei55" target="_blank"><img src="./img/github_icon.svg" alt="Github"></a>
+      <a href="https://x.com/home" target="_blank"><img src="./img/twitter_icon.svg" alt="Twitter"></a>
+      <a href="https://www.linkedin.com/in/michaela-kreissl/" target="_blank"><img src="./img/linkedin_icon.svg"
+          alt="LinkedIn"></a>
+    </div>
+  </footer>
+
+  <script src="js/tota11y.min.js"></script>
+
+</body>
+
+</html>
